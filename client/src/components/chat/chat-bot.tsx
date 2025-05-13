@@ -15,7 +15,7 @@ interface Message {
   typing?: boolean;
 }
 
-const INITIAL_MESSAGE = "Hi there! I'm Alertify Assistant. How can I help you with your website monitoring today?";
+const INITIAL_MESSAGE = "Hi there! I'm snaya. How can I help you with your website monitoring today?";
 
 const RESPONSES = [
   {
