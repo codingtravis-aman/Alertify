@@ -15,7 +15,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Store connected clients
   const clients: WebSocket[] = [];
   
-  // WebSocket connection handler
+  // web socket connection handler
   wss.on('connection', (ws) => {
     console.log('WebSocket client connected');
     clients.push(ws);
